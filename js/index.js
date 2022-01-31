@@ -11,7 +11,7 @@ let music = document.querySelector(".music"),
   btn = document.querySelector(".fence .p2")
 //--------------------------------------------------------------
 // canvas绘图 需要图片加载完成  全部代码 包裹在 图片加载里
-loadImg(['img/bug.png', 'img/new.png', 'img/ni.png', 'img/tuofa.png','img/fz.png',]).then((imgArr) => {
+loadImg(['img/new.png', 'img/ni.png', 'img/ni.png', 'img/tuofa.png','img/fz.png',]).then((imgArr) => {
   // --------------------------------------------------------------
 
   window.onload = function () {
@@ -96,9 +96,9 @@ loadImg(['img/bug.png', 'img/new.png', 'img/ni.png', 'img/tuofa.png','img/fz.png
     let balls = [],
       timer2 = null,
       count = 0,
-      ballAll = 5,
+      ballAll = 10,
       // 祝福词个数
-      textAll = 5,
+      textAll = 1,
       // 祝福词坐标
       textPos = [
         { x: width / 4, y: height / 4 + 30 },
